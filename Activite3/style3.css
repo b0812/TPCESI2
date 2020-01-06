@@ -1,0 +1,107 @@
+
+@font-face{
+	Font-family : 'ActionMan';
+	Src:url('Action-Man/Action_Man.ttf');
+}
+.sousTitre
+{
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.2em;
+}
+#bloc_page
+{
+	margin: auto;
+}
+#titre_principal
+{
+	width:100%;
+}
+#imageEntete
+{
+	margin:10px;
+	border-radius : 10px;
+}
+#containerTitre
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+body
+{
+	font-family : Arial, serif;
+	background-image: url("images/fond_bret2.JPG");
+	background-repeat: no-repeat;
+	background-size:  cover;
+}	
+header
+{
+	background-color:#1275CC; 
+	border : 2px white solid;
+	border-radius : 10px;
+	box-shadow: 5px 5px 6px white;
+	height=40px;
+}
+article, aside
+{
+	display: inline-block;
+	vertical-align: top;
+}
+aside
+{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	left: 0px;
+	top: 250px;
+	height: 50%;
+	width: 100px;
+	background-color:1275CC;
+	padding:10px;
+	margin: 10px;
+	color: #FFFFFF;
+	border : 2px white solid;
+	border-radius : 10px;
+	box-shadow: 5px 5px 6px white;
+}
+article
+{
+	position: relative;
+	left:16%;
+	width:20%;
+	padding:15px;
+	color: #FFFFFF;
+}
+
+h1
+{
+	font-size: 2em;
+	font-weight: bold;
+	font-family : ActionMan, Arial, serif;
+	text-align: center;
+	color: 1FEFF2;
+}
+h2
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family : ActionMan, Arial, serif;
+	color: #1FEFF2;
+}
+em
+{
+	font-size: 1:2em;
+	font-weight: bold;
+}
+
+p , em
+{
+	color: #FFFFFF;
+}
+li
+{
+	font-size: 0.8em;
+}
+
+
